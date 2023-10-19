@@ -1,5 +1,5 @@
 class FiestaDisfraces:
-    def __init__(self): #Aqui el self sirve como nombre para el primer parametro de la clase
+    def __init__(self): #Aqui el self sirve como nombre para el primer parametro de la clase. y el __init__ sirve para iniciar la clase que cree anterioramente
         self.asistentes_admitidos = []
         self.asistentes_rechazados = []
         self.temas_disfraz_permitidos = ["la muelona","muelona", "el hombre caiman","caiman", "la patasola","patasola", "la llorona","llorona", "el sombreron","sombreron", "la madremonte","madremonte", "el silbon","silbon", "juan machete","machete", "el mohan","mohan"]
