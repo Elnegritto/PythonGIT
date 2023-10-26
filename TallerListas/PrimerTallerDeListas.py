@@ -23,18 +23,18 @@ nombreDeLaInstructora = input("Ingrese el nombre de la instructora: ")
 aprendices.insert(1, nombreDeLaInstructora)
 
 # En esta parte cuenta cuántos aprendices tienen 18 años o en pocas palabras cuantos estan pensionados en el ambiente
-conteo18Años = edades.count(18)
-print(f"Número de aprendices con 18 años: {conteo18Años}")
+conteo18Edad = edades.count(18)
+print(f"Número de aprendices con 18 años: {conteo18Edad}")
 
 # Aqui se Agrega el nombre de otro veneco digo de un aprendiz al final de la lista
-nuevoNombreDelAprendiz = input("Ingrese el nombre del nuevo aprendiz: ")
+nuevoNombreDelAprendiz = input("Ingrese el nombre del nuevo aprendiz o nuevo aprendiz: ")
 aprendices.append(nuevoNombreDelAprendiz)
 
 # Aqui se borrar el nombre de nuestra querida instructora de la lista
 aprendices.remove(nombreDeLaInstructora)
 
 # Aqui se Indica un dato a buscar en la lista de aprendices
-datoABuscar = input("Ingrese un dato a buscar en la lista de aprendices: ")
+datoABuscar = input("Ingrese un dato a buscar en la lista de aprendices(nombre): ")
 if datoABuscar in aprendices:
     print(f"{datoABuscar} está en la lista de aprendices.")
 else:
@@ -49,4 +49,4 @@ print(f"Primeros 10 aprendices: {aprendices[:10]}")
 print(f"Últimos 10 aprendices: {aprendices[-10:]}")
 
 # Mostrar del elemento 10 al elemento 20
-print(f"Elementos del 10 al 20: {aprendices[9:19]}")
+print(f"Elementos del 10 al 20: {aprendices[10:21]}")
